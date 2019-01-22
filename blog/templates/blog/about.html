@@ -39,14 +39,13 @@
 <header class="site-header">
     <nav class="navbar navbar-expand-md navbar-dark bg-steel fixed-top">
         <div class="container">
-            <a class="navbar-brand mr-4" href="{% url 'blog-about' %}">Omar Sanchez</a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarToggle"
                     aria-controls="navbarToggle" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
             <div class="collapse navbar-collapse" id="navbarToggle">
                 <div class="navbar-nav mr-auto">
-                    <a class="nav-item nav-link" href="{% url 'blog-home' %}">Blog</a>
+                    <a class="navbar-brand mr-4" href="{% url 'blog-home' %}">Blog</a>
                 </div>
             </div>
         </div>
@@ -61,10 +60,22 @@
             <div class="row">
                 <!--Grid column-->
                 <div class="col-md-6">
-                    <div class="centerBlock" style="position:fixed;">
+                    <div class="centerBlock position-fixed">
                         <img class="rounded-circle animated fadeInLeft" src="{% static "blog/about/me.jpg" %}" width="170px" height="170px">
                         <h1 class="animated fadeInDown larger-text"><strong>Omar</strong></h1>
                         <h1 class="animated fadeInDown larger-text"><strong>Sanchez II</strong></h1>
+                        <a href="https://github.com/Osanchez"><img class="pr-2 animated fadeInLeft" src="{% static "blog/about/git-icon.png" %}" width="60px" height="50px"></a>
+                        <a href="https://www.facebook.com/OsanchezDev"><img class="pr-2 animated fadeInLeft" src="{% static "blog/about/facebook-icon.png" %}" width="60px" height="50px"></a>
+                        <a href="https://twitter.com/OsanchezDev"><img class="pr-2 animated fadeInLeft" src="{% static "blog/about/twitter-icon.png" %}"width="60px" height="50px"></a>
+                        <a href="mailto:omarsanchezdev@gmail.com"><img class="pr-2 animated fadeInLeft" src="{% static "blog/about/email-icon.png" %}"width="60px" height="50px"></a>
+                        <br />
+                        <br />
+                        <a href="https://drive.google.com/file/d/160MnyHTFM25cAAlEdG1a0PdMpQbkIwWD/view?usp=sharing">
+                            <img class="pr-2  float-left animated fadeInLeft" src="{% static "blog/about/resume-icon.png" %}"width="65px" height="55px">
+                            <p class="p-3 font-weight-bold animated fadeInRight" style="color:rgb(52,52,52);">My Resume</p>
+                        </a>
+
+
                     </div>
                 </div>
 
@@ -76,31 +87,32 @@
 
                             <p class="wow fadeInRight" data-wow-duration="1s">
                                 Hello, my name is Omar Sanchez II. I've taken the time to develop this page to provide a
-                                central hub for people to learn more about me, and to showcase some of the amazing projects
-                                I've had the opportunity to work on. To give you a little background information about myself,
+                                central hub for people to learn more about me, and to showcase some of the amazing projects I've worked on.
+                                To give you a little background information about myself,
                                 I've been into software development for over 5 years. I've worked on projects ranging
-                                from simple text based games for college classes to full scale inventory management applications
-                                for Hewlett Packard Enterprise. Iv'e had my dive into topics such as algorithms,
+                                from simple text based games for personal leisure to full scale inventory management applications
+                                for Hewlett Packard Enterprise. Iv'e had my dive into topics on algorithms,
                                 artificial intelligence, and natural language processing. While I still have a lot to learn
                                 when it comes to software development, I enjoy spending my free time exploring my creativity
-                                and creating some interesting applications.
+                                and creating interesting applications.
                             </p>
 
                             <p class="wow fadeInLeft" data-wow-duration="1s">
                                 My expertise is in Java and Python development. A vast majority of my work has been on the
-                                back-end, but recently I began teaching myself front-end development.
+                                back-end, but for about a year now I've been teaching myself front-end development.
                                 Through this I have learned to work with the Django framework, and some design languages such as
-                                HTML and CSS. I believe that having knowledge in both the back-end and front-end is important
-                                for any developer.
+                                HTML, CSS and bootstrap. I believe that having knowledge in both the back-end and front-end is important
+                                for any developer. Which is why one of my goals is to become a master at full-stack development.
                             </p>
 
-                            <p class="wow fadeInLeft" data-wow-duration="1s">
-                                I know this isn't useful technical information about myself, but I also love to cook and listen
-                                to different kinds of music when I'm not programming. That's everything I can tell you for now, If you're
+                            <p class="wow fadeInRight" data-wow-duration="1s">
+                                I also love to cook and listen to many different kinds of music when I'm not programming.
+                                That's everything I can tell you for now, If you're
                                 still interested in learning more about me, feel free to visit my LinkedIn page or view my resume to
                                 get contact my information. I'm a fairly outgoing person and believe that
                                 I can be a great fit for any team or project. I look forward to hearing from you!
-
+                                <br />
+                                <br />
                                 - Omar Sanchez II
                             </p>
                     </div>
