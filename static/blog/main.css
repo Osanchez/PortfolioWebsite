@@ -107,7 +107,7 @@ p {
 .about {
     position: absolute;
     top: 100vh;
-    padding-bottom: 34vh;
+    /*padding-bottom: 34vh;*/
     width: 100%;
 }
 
