@@ -114,3 +114,7 @@ p {
 .larger-text {
     font-size: 400%;
 }
+
+.navbar-custom {
+    background: black none no-repeat;
+}
