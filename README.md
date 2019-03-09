@@ -5,5 +5,5 @@ My Protfilio website
 Blog Features
 
 # Live
-omarasanchez.com
+http://omarasanchez.com
 
