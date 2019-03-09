@@ -2,8 +2,8 @@
 My Protfilio website
 
 # In Progress
-About Page 
-Blog 
+Blog Features
 
-# Coming Soon
-SpotiQueue
+# Live
+omarasanchez.com
+
